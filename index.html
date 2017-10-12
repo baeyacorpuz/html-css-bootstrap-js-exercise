@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TODO LIST</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap-4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.js"></script>
+	<script type="text/javascript" src="bootstrap-4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container header text-center">
+		<h1>TODO LIST</h1>
+		<input id="task" class="form-control" type="text" name="task" placeholder="Input task here">
+		<button id="add" type="button" class="btn btn-success" >Add</button>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<!--TODO OR ONGOING-->
+			<div class="col-md-6">
+				<h4>TODO:</h4>
+				<section>
+					<ul id="todo">
+					</ul>
+				</section>
+			</div>
+
+			<!--COMPLETED-->
+			<div class="col-md-6">
+				<h4>COMPLETED:</h4>
+				<section class="completed">
+					<ul id="completed">
+						
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/main.js">
+
+	</script>
+
+</body>
+</html>

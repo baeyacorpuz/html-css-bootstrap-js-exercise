@@ -1,0 +1,15 @@
+.container.header {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.form-control {
+	width: 30%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn.btn-success {
+	margin: 10px;
+}
